@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/Users/eduardo.escarti/Projects/03.\ Alfred/alfred-fast-note-to-notion/bin/python3
 
 import argparse
 import sys

@@ -1,4 +1,4 @@
 cachetools==3.1.0
 git+https://github.com/escarti/notion-py
 flake8==3.7.7
--e ./shared
+

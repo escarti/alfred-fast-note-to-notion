@@ -23,7 +23,8 @@ try:
     row = collection.add_row()
     # NOTE: row.name it is notion table column with name "name"
     row.name = query
-    row.date = NotionDate(tomorrow_date)
+    row.status = "Plan for today"
+    row.due = NotionDate(tomorrow_date)
 
     # Print out alfred-formatted JSON (modifies variables while passing query through)
     output = {
